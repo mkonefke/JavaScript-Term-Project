@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Math</title>
+  <link rel="stylesheet" href="css/game1.css">
+  
+</head>
+<body>
+  <!-- Audience: Kids and learners -->
+  <!-- Layout: Simple, fast-paced math challenge -->
+  <!-- Color Scheme: Clean, white + blue -->
+
+  <header>
+    <h2>Kitty Cat Math</h2>
+    <p>Answer as many math questions as you can in 30 seconds!</p>
+  </header>
+
+  <div class="game-area">
+    <div class="score">Score: <span id="score">0</span></div>
+    <div class="timer">Time Left: <span id="time">30</span>s</div>
+
+    <div class="problem" id="problem">Press Start</div>
+    <input type="number" id="answerInput" placeholder="Answer" disabled />
+    <br>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+  <footer>
+    <p>© 2025 Makayla Konefke</p>
+  </footer>
+  <script src="js/game1.js"></script>
+</body>
+</html>

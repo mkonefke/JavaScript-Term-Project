@@ -1,0 +1,53 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #e2d2ea;
+    color: #333;
+    text-align: center;
+   }
+  header {
+    background-color: #6b33a0;
+    padding: 20px;
+    color: white;
+  }
+  footer {
+    background-color: #422061;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin: 30px auto;
+  }
+  .card {
+    width: 100px;
+    height: 100px;
+    background-color: #734c9c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+  }
+  .card.flipped {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+  .card.matched {
+    background-color: #2ecc71;
+    cursor: default;
+  }
+  h2, p {
+    margin: 10px 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }

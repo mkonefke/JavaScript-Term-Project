@@ -1,0 +1,61 @@
+
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-image: url('../media/kittycat.jpeg');
+      background-size: cover;
+    }
+    header {
+      background-color: #6b33a0;
+      padding: 20px;
+      color: white;
+    }
+    
+    footer {
+      background-color: #422061;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    .game-area {
+      margin-top: 30px;
+    }
+
+    .problem {
+      font-size: 2em;
+      margin: 20px 0;
+    }
+
+    input[type="number"] {
+      padding: 10px;
+      font-size: 1.2em;
+      width: 100px;
+      text-align: center;
+    }
+
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: 1em;
+      background-color: #5929b9;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #1f6390;
+    }
+
+    .score, .timer {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
